@@ -1,0 +1,75 @@
+1- pip list "command" 
+$ pip list
+DEPRECATION: The default format will switch to columns in the future. You can use --format=(legacy|columns) (or define a format=(legacy|columns) in your pip.conf under the [list] section) to disable this warning.
+click (8.0.4)
+colorama (0.4.5)
+dataclasses (0.8)
+Flask (2.0.3)
+importlib-metadata (4.8.3)
+itsdangerous (2.0.1)
+Jinja2 (3.0.3)
+MarkupSafe (2.0.1)
+pip (9.0.1)
+setuptools (28.8.0)
+typing-extensions (4.1.1)
+Werkzeug (2.0.3)
+zipp (3.6.0)
+You are using pip version 9.0.1, however version 23.3.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+(py3Env)
+
+2-pip3 list 
+"there is no diffrent with pip list when the virtual activate but when it is deactivate this apear :-"
+$ pip3 list
+Package    Version
+---------- -------
+pip        21.3.1
+setuptools 28.8.0
+
+"so less information and it the default pip only "
+
+3- "to reactivate the virtual enviorment this is the path "
+source py3Env/Scripts/activate
+
+4-installing django 
+ pip install Django==2.2.4
+Collecting Django==2.2.4
+  Downloading https://files.pythonhosted.org/packages/d6/57/66997ca6ef17d2d0f0ebcd860bc6778095ffee04077ca8985928175da358/Django-2.2.4-py3-none-any.whl (7.5MB)
+Collecting sqlparse (from Django==2.2.4)
+  Downloading https://files.pythonhosted.org/packages/98/5a/66d7c9305baa9f11857f247d4ba761402cea75db6058ff850ed7128957b7/sqlparse-0.4.4-py3-none-any.whl (41kB)
+Collecting pytz (from Django==2.2.4)
+  Downloading https://files.pythonhosted.org/packages/32/4d/aaf7eff5deb402fd9a24a1449a8119f00d74ae9c2efa79f8ef9994261fc2/pytz-2023.3.post1-py2.py3-none-any.whl (502kB)
+Installing collected packages: sqlparse, pytz, Django
+Successfully installed Django-2.2.4 pytz-2023.3.post1 sqlparse-0.4.4
+You are using pip version 9.0.1, however version 23.3.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+(py3Env)
+
+5-pip freeze and different between the pip list is as following :- 
+in syntax the pip freez provide the information with == and it is version and as i searched and understand it is use to interact with these information on the other hand the pip list is more user friendly to see the contant .
+
+6-what do i see when running pip freeze > requirements.txt
+lick==8.0.4
+colorama==0.4.5
+dataclasses==0.8
+Django==2.2.4
+Flask==2.0.3
+importlib-metadata==4.8.3
+itsdangerous==2.0.1
+Jinja2==3.0.3
+MarkupSafe==2.0.1
+pytz==2023.3.post1
+sqlparse==0.4.4
+typing-extensions==4.1.1
+Werkzeug==2.0.3
+zipp==3.6.0
+"so it is the same data with pip freeze put in a text file "
+
+7- pip uninstall Django
+so the terminal asked permission to delet and i put y from yes and it show me successfully uninstalled 
+
+8-pip show Django 
+pip show Django
+You are using pip version 9.0.1, however version 23.3.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+(py3Env)
