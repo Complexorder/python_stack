@@ -129,16 +129,16 @@
 #  in this example when printin a it do the normal print and access the b function and activate it 
 
 # #15
-def a():
-    print(1)
-    x = b()
-    print(x)
-    return 10
-def b():
-    print(3)
-    return 5
-y = a()
-print(y)
+# def a():
+#     print(1)
+#     x = b()
+#     print(x)
+#     return 10
+# def b():
+#     print(3)
+#     return 5
+# y = a()
+# print(y)
 
 # the sequance is important when calling the function a it go throw line by line and even when it comes to b it run it and then went back to the main function
 
